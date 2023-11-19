@@ -1,13 +1,92 @@
-body {
+/* Global styles */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Login component styles */
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+/* Dashboard component styles */
+.dashboard-container {
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.dashboard-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.dashboard-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.dashboard-welcome {
+  font-size: 24px;
+  font-weight: normal;
+  color: #333333;
+  margin-top: 40px;
+}
+
+/* Employee list component styles */
+.employee-list-container {
+  height: 100vh;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.employee-list-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.employee-list-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Employee card component styles */
+.employee-card {
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.employee-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 20px;
+}
+
+.employee-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.employee-designation {
+  font-size: 16px;
+  font-weight: normal;
+  color: #666666;
+}
+
+.employee-department {
+  font-size: 14px;
+  font-weight: normal;
+  color: #999999;
 }
